@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 211, 211);
+    margin: 20px;
+}
+header{
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+section{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0,1);
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+form input,form  textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px,0;
+    box-sizing: border-box;
+}
+label{
+    font-weight: bold;
+}
+input[type="button"]{
+    background-color: rgb(9, 9,117);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
